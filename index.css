@@ -1,3 +1,11 @@
 body {
     font-size: 14px;
+    background-color: black;
+}
+
+.social-container {
+    text-align: center;
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: hsl(0, 0%, 8%);
 }
