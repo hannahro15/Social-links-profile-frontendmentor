@@ -5,9 +5,8 @@ body {
 
 .social-container {
     text-align: center;
-    border: 1px solid white;
     color: #ffffff;
-    background-color: hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 12%);
 }
 
 #photo {
@@ -20,4 +19,12 @@ body {
 
 #city {
     color: hsl(75, 94%, 57%);
+}
+
+.social-link {
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
 }
