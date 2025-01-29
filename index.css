@@ -9,3 +9,15 @@ body {
     color: #ffffff;
     background-color: hsl(0, 0%, 8%);
 }
+
+#photo {
+    border-radius: 50%;
+}
+
+#name{
+    color: hsl(0, 0%, 100%);
+}
+
+#city {
+    color: hsl(75, 94%, 57%);
+}
