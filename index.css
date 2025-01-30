@@ -2,16 +2,23 @@ body {
     font-size: 14px;
     font-family: Inter;
     background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
 }
 
 .social-container {
     text-align: center;
     color: #ffffff;
     background-color: hsl(0, 0%, 12%);
-    min-height: 400px;
-    min-width: 100px;
-    margin: 100px 80px 50px 80px;
-
+    min-height: 380px;
+    max-width: 400px;
+    margin: 100px auto 50px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #photo {
@@ -28,13 +35,18 @@ body {
 }
 
 .social-link {
+    display: block;
     background-color: hsl(0, 0%, 20%);
     padding: 15px;
     border-radius: 5px;
-    margin-left: 200px;
-    margin-right: 200px;
     margin-bottom: 10px;
     font-weight: 400;
-    min-width: 250px;
+    max-width: 250px;
     text-align: center;
+    margin: 10px auto;
+}
+
+.attribution {
+    display: block;
+    margin-top: auto;
 }
