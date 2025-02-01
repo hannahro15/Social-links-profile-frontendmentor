@@ -46,6 +46,19 @@ body {
     margin: 10px auto;
 }
 
+.social-link:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.social-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-link a:hover {
+    color: black;
+}
+
 .attribution {
     display: block;
     margin-top: auto;
